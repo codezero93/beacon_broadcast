@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'pl.pszklarska.beacon_broadcast'
+
     compileSdkVersion 28
 
     sourceSets {
